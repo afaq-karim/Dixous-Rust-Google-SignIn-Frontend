@@ -1,0 +1,36 @@
+[package]
+name = "rust-frontend"
+version = "0.1.0"
+authors = ["afaq-karim <ashfaqhunzai15@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.197", features = ["derive"] }
+
+dioxus = { version = "0.5", features = ["fullstack", "router"] }
+getrandom = { version = "0.2", features = ["js"] }
+
+# Debug
+tracing = "0.1.40"
+dioxus-logger = "0.5.0"
+reqwest = { version = "0.12.4", features = ["json"] }
+async-recursion = "1.1.1"
+futures = "0.3.30"
+tokio = "1.38.0"
+features = "0.10.0"
+full = "0.1.0"
+web-sys = { version = "0.3.69", features = ["console"] }
+serde_urlencoded = "0.7.1"
+serde_json = "1.0.117"
+dioxus-router = "0.5.0"
+manganis = "0.2.2"
+js-sys = "0.3.69"
+wasm-bindgen = "0.2.92"
+url = "2.5.0"
+
+[features]
+default = []
+server = ["dioxus/axum"]
+web = ["dioxus/web"]
