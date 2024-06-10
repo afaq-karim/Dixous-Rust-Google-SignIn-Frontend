@@ -2,6 +2,9 @@
 
 This repository hosts the frontend application component of the Dixous Rust framework, tailored for integrating Google Sign-In functionality.
 
+Backend Repository
+https://github.com/afaq-karim/Dixous-Rust-Google-SignIn-Backend/tree/main
+
 ## Installation
 
 Before running the application, make sure you have the following dependencies installed:
