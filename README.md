@@ -1,6 +1,3 @@
-Certainly! Here's the README file in Markdown format:
-
-```markdown
 # Dixous-Rust-Google-SignIn-Frontend
 
 This repository hosts the frontend application component of the Dixous Rust framework, tailored for integrating Google Sign-In functionality.
